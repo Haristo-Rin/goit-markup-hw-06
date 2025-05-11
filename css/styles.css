@@ -827,6 +827,7 @@ address {
 }
 
 .modal_chexbox_a {
+    text-decoration: underline;
     color: var(--iris);
 }
 
@@ -849,7 +850,7 @@ address {
 
 /* modal window */
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1439px) {
 
     /* header */
     .header {
@@ -939,10 +940,6 @@ address {
         max-width: 768px;
     }
 
-    .oteam_div {}
-
-    .container {}
-
     .oteam_h-two {
         width: 163px;
         margin-left: 300px;
@@ -1019,18 +1016,227 @@ address {
 
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767px) {
     /* header */
+
+    .header {
+        width: 320px;
+        height: 56px;
+        padding: 16px;
+    }
+
+    .ul_header {
+        display: none;
+    }
+
+    .address {
+        display: none;
+    }
+
+    .btn_burger {
+        margin-left: 126px;
+        border: none;
+        background-color: var(--white);
+    }
+
+    .burger {
+        fill: #2f2f37;
+    }
 
     /* section_1 */
 
+    .section_main {
+        max-width: 320px;
+        height: 432px;
+    }
+
+    .main_h-one {
+        text-align: center;
+        width: 216px;
+        margin: 0 29px;
+        margin-top: -120px;
+
+    }
+
+    .main_btn {
+        margin: 24px 64px;
+    }
+
+
     /* section_2 */
+
+    .advant_section {
+        max-width: 288px;
+    }
+
+    .advant_ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .advant_li {
+        width: 288px;
+        height: 120px;
+    }
+
+
+
+    .advant_svg_div {
+        display: none;
+    }
+
+    .advant_h-thre {
+        text-align: center;
+        width: 288px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 111%;
+        letter-spacing: 0.02em;
+    }
+
+    .advant_p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+    }
 
     /* section_3 */
 
+    .oteam_section {
+        max-width: 320px;
+    }
+
+    .oteam_h-two {
+        width: 163px;
+        margin-left: 78px;
+    }
+
+    .oteam_ul {
+
+        width: 264px;
+        margin: 72px 16px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .oteam_li {
+        width: 264px;
+        height: 428px;
+    }
+
     /* section_4 */
+
+    .oportfolio_section {
+        width: 288px;
+    }
+
+    .oportfolio_h-two {
+        width: 220px;
+        margin-left: 44px;
+    }
+
+    .oportfolio_ul {
+        width: 288px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .oportfolio_li {
+        width: 288px;
+        height: 420px;
+    }
+
+    .oportfolio_img_p {
+        display: none;
+    }
 
     /* footer */
 
+    .foot {
+        width: 320px;
+        height: 664px;
+        padding: 0;
+        margin: 0;
+        gap: 0;
+    }
+
+    .foot_div {
+        display: flex;
+        flex-direction: column;
+
+        padding: 0;
+        margin: 0;
+        gap: 0;
+    }
+
+    .foot_div_one {
+        width: 288px;
+        height: 112px;
+        margin-top: 96px;
+        margin-left: 16px;
+    }
+
+
+    .foot_div_two {
+        width: 208px;
+        height: 80px;
+        margin-top: 72px;
+        margin-left: 56px;
+    }
+
+
+    .foot_div_thre {
+        display: flex;
+        flex-direction: column;
+        width: 288px;
+        height: 136px;
+        margin-top: 72px;
+        margin-left: 16px;
+    }
+
+    .p_foot_thre {
+        margin-left: 106px;
+    }
+
+    .foot_form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foot_lable {}
+
+    .input_foot {
+        width: 288px;
+        height: 40px;
+    }
+
+    .foot_btn {
+        width: 165px;
+        height: 40px;
+    }
+
+
     /* modal window */
+
+    .modal_window_conteiner {
+        padding: 0;
+        margin: 0;
+        gap: 0;
+    }
+
+    .modal_window {
+        width: 288px;
+        height: 623px;
+        top: 11%;
+        left: 14%;
+    }
+
+    .modal_chexbox {
+        display: inline-flex;
+    }
+
+    .modal_chexbox_lable {
+        width: 231px;
+    }
 }
