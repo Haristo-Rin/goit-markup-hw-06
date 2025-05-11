@@ -850,6 +850,8 @@ address {
 /* modal window */
 
 @media (max-width: 768px) {
+
+    /* header */
     .header {
         max-width: 769px;
         height: 72px;
@@ -879,8 +881,47 @@ address {
         gap: 0;
     }
 
-    .address_li {
+    /* section_1 */
+
+    .section_main {
+        width: 768px;
+        height: 436px;
     }
+
+    .main_h-one {
+        margin: 0 136px;
+        margin-top: -40px;
+
+    }
+
+    .main_btn {
+        margin: 0 300px;
+    }
+
+    /* section_2 */
+
+    /* section_3 */
+
+    /* section_4 */
+
+    /* footer */
+
+    /* modal window */
+
 }
 
-@media (max-width: 320px) {}
+@media (max-width: 320px) {
+    /* header */
+
+    /* section_1 */
+
+    /* section_2 */
+
+    /* section_3 */
+
+    /* section_4 */
+
+    /* footer */
+
+    /* modal window */
+}
