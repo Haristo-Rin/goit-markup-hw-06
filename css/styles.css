@@ -853,7 +853,7 @@ address {
 
     /* header */
     .header {
-        max-width: 769px;
+        max-width: 768px;
         height: 72px;
     }
 
@@ -900,11 +900,120 @@ address {
 
     /* section_2 */
 
+    .advant_section {
+        max-width: 768px;
+    }
+
+    .advant_ul {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .advant_li {
+        width: 361px;
+        height: 120px;
+    }
+
+    .advant_svg_div {
+        display: none;
+    }
+
+    .advant_h-thre {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 111%;
+        letter-spacing: 0.02em;
+    }
+
+    .advant_p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+    }
+
     /* section_3 */
+
+    .oteam_section {
+        max-width: 768px;
+    }
+
+    .oteam_div {}
+
+    .container {}
+
+    .oteam_h-two {
+        width: 163px;
+        margin-left: 300px;
+    }
+
+    .oteam_ul {
+        width: 552px;
+        margin: 64px 108px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .oteam_li {
+        width: 264px;
+        height: 428px;
+    }
+
 
     /* section_4 */
 
+    .oportfolio_h-two {
+        width: 220px;
+        margin-left: 275px;
+    }
+
+    .oportfolio_ul {
+        width: 736px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .oportfolio_li {
+        width: 356px;
+        height: 420px;
+    }
+
     /* footer */
+
+    .foot {
+        width: 768px;
+        height: 600px;
+        padding-bottom: 0;
+    }
+
+    .foot_div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .foot_div_one {
+        width: 264px;
+        height: 112px;
+        margin-top: 96px;
+        margin-left: 108px;
+    }
+
+
+    .foot_div_two {
+        width: 208px;
+        height: 80px;
+        margin-top: 96px;
+        margin-left: 24px;
+    }
+
+
+    .foot_div_thre {
+        width: 768px;
+        height: 456px;
+        margin-top: 96px;
+        margin-left: 72px;
+    }
 
     /* modal window */
 
