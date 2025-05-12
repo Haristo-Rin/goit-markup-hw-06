@@ -33,7 +33,7 @@
                     <li><a href="tel:+110001111111" class="address_li">+11 (000) 111-11-11</a></li>
                 </ul>
             </address>
-            <button class="btn_burger">
+            <button class="btn_burger is-open" data-modal-open>
                 <svg width="24" height="24" class="burger">
                     <use href="./images/icons.svg#icon-burger-menu"></use>
                 </svg>
@@ -438,7 +438,7 @@
 
     </footer>
 
-    <div class="modal_window_conteiner">
+    <!-- <div class="modal_window_conteiner">
         <div class="modal_window">
             <button type="button" class="modal_btn">
                 <svg width="8" height="8" class="modal_close_svg">
@@ -522,7 +522,60 @@
             </form>
         </div>
         
+    </div> -->
+
+    <div class="mobile_burger_menu" data-modal>
+        <button type="button" class="modal_btn" data-modal-close>
+            <svg width="8" height="8" class="modal_close_svg">
+                <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+        </button>
+        <nav class="burger_nav">
+            <ul class="ul_burger">
+                <li><a href="./index.html" class="burger_li burger_studio">Studio</a></li>
+                <li><a href="" class="burger_li">Portfolio</a></li>
+                <li><a href="" class="burger_li">Contacts</a></li>
+            </ul>
+        </nav>
+        <address class="burger_address">
+            <ul class="burger_ul_address">
+                <li><a href="tel:+110001111111" class="burger_address_li">+11 (000) 111-11-11</a></li>
+                <li><a href="mailto:info@devstudio.com" class="burger_address_li gmail">info@devstudio.com</a></li>
+            </ul>
+        </address>
+        <ul class="foot_social burger_social">
+            <li class="foot_social_li">
+                <a href="#" class="foot_social_a">
+                    <svg width="24" height="24" class="foot_social_svg">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="foot_social_li">
+                <a href="#" class="foot_social_a">
+                    <svg width="24" height="24" class="foot_social_svg">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="foot_social_li">
+                <a href="#" class="foot_social_a">
+                    <svg width="24" height="24" class="foot_social_svg">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="foot_social_li">
+                <a href="#" class="foot_social_a">
+                    <svg width="24" height="24" class="foot_social_svg">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
     </div>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>

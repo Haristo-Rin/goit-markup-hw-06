@@ -186,6 +186,10 @@ address {
     font-weight: 400;
 }
 
+/* .btn_burger {
+    display: none;
+} */
+
 /* header */
 
 /* section_1 */
@@ -850,6 +854,10 @@ address {
 
 /* modal window */
 
+/* .mobile_burger_menu {
+    display: none;
+} */
+
 @media (min-width: 768px) and (max-width: 1439px) {
 
     /* header */
@@ -881,6 +889,10 @@ address {
         margin: 16px;
         gap: 0;
     }
+
+    /* .btn_burger {
+        display: none;
+    } */
 
     /* section_1 */
 
@@ -1013,6 +1025,9 @@ address {
     }
 
     /* modal window */
+    .mobile_burger_menu {
+        display: none;
+    }
 
 }
 
@@ -1023,6 +1038,14 @@ address {
         width: 320px;
         height: 56px;
         padding: 16px;
+    }
+
+    .nav {
+        margin: 0;
+    }
+
+    .header-logo {
+        width: 36px;
     }
 
     .ul_header {
@@ -1036,11 +1059,17 @@ address {
     .btn_burger {
         margin-left: 126px;
         border: none;
-        background-color: var(--white);
+        background-color: transparent;
+        outline: none;
     }
 
     .burger {
         fill: #2f2f37;
+    }
+
+    .is-open  {
+        opacity: 1;
+        transition: .3s;
     }
 
     /* section_1 */
@@ -1238,5 +1267,69 @@ address {
 
     .modal_chexbox_lable {
         width: 231px;
+    }
+
+    /* burger */
+
+    .mobile_burger_menu {
+        background-color: var(--white);
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+    }
+
+    .burger_nav {
+        width: 151px;
+        height: 200px;
+        margin-top: 72px;
+        margin-left: 16px;
+    }
+
+    .burger_li {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 111%;
+        letter-spacing: 0.02em;
+        color: var(--navy-blue);
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .burger_studio {
+        color: var(--ocean);
+    }
+
+    .burger_address {
+        width: 193px;
+        height: 72px;
+        margin-top: 168px;
+        margin-left: 16px;
+    }
+
+    .is_hiden {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+
+    .burger_address_li {
+        width: 192px;
+        height: 24px;
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gmail {
+        color: var(--navy-blue);
+    }
+
+    .burger_social {
+        margin-top: 48px;
+        margin-left: 16px;
     }
 }
