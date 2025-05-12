@@ -853,17 +853,21 @@ address {
 }
 
 /* modal window */
-
-/* .mobile_burger_menu {
+.burger {
     display: none;
-} */
+}
+.mobile_burger_menu {
+    display: none;
+}
 
-@media (min-width: 768px) and (max-width: 1439px) {
+@media (min-width: 768px) {
 
+    .container{
+        width: 768px;
+    }
     /* header */
     .header {
         max-width: 768px;
-        height: 72px;
     }
 
     .nav {
@@ -890,9 +894,9 @@ address {
         gap: 0;
     }
 
-    /* .btn_burger {
+    .btn_burger {
         display: none;
-    } */
+    }
 
     /* section_1 */
 
@@ -991,37 +995,25 @@ address {
     /* footer */
 
     .foot {
-        width: 768px;
-        height: 600px;
         padding-bottom: 0;
     }
 
     .foot_div {
+        width: 584px;
         display: flex;
         flex-wrap: wrap;
     }
 
     .foot_div_one {
-        width: 264px;
-        height: 112px;
-        margin-top: 96px;
-        margin-left: 108px;
     }
 
 
     .foot_div_two {
-        width: 208px;
-        height: 80px;
-        margin-top: 96px;
-        margin-left: 24px;
     }
 
 
     .foot_div_thre {
-        width: 768px;
-        height: 456px;
         margin-top: 96px;
-        margin-left: 72px;
     }
 
     /* modal window */
@@ -1031,12 +1023,15 @@ address {
 
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) {
+
+    .container {
+        width: 320px;
+    }
     /* header */
 
     .header {
         width: 320px;
-        height: 56px;
         padding: 16px;
     }
 
@@ -1076,19 +1071,22 @@ address {
 
     .section_main {
         max-width: 320px;
-        height: 432px;
     }
 
     .main_h-one {
-        text-align: center;
         width: 216px;
         margin: 0 29px;
         margin-top: -120px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 111%;
+        letter-spacing: 0.02em;
+        text-align: center;
 
     }
 
     .main_btn {
-        margin: 24px 64px;
+        margin: 24px 64px 0;
     }
 
 
@@ -1104,8 +1102,7 @@ address {
     }
 
     .advant_li {
-        width: 288px;
-        height: 120px;
+        
     }
 
 
@@ -1137,8 +1134,7 @@ address {
     }
 
     .oteam_h-two {
-        width: 163px;
-        margin-left: 78px;
+        text-align: center;
     }
 
     .oteam_ul {
@@ -1176,6 +1172,11 @@ address {
         height: 420px;
     }
 
+    .oportfolio_img {
+        width: 100%;
+        height: auto;
+    }
+
     .oportfolio_img_p {
         display: none;
     }
@@ -1200,28 +1201,18 @@ address {
     }
 
     .foot_div_one {
-        width: 288px;
-        height: 112px;
-        margin-top: 96px;
-        margin-left: 16px;
+        
     }
 
 
     .foot_div_two {
-        width: 208px;
-        height: 80px;
         margin-top: 72px;
-        margin-left: 56px;
     }
 
 
     .foot_div_thre {
         display: flex;
         flex-direction: column;
-        width: 288px;
-        height: 136px;
-        margin-top: 72px;
-        margin-left: 16px;
     }
 
     .p_foot_thre {
@@ -1236,13 +1227,9 @@ address {
     .foot_lable {}
 
     .input_foot {
-        width: 288px;
-        height: 40px;
     }
 
     .foot_btn {
-        width: 165px;
-        height: 40px;
     }
 
 
